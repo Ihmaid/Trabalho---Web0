@@ -48,7 +48,7 @@ nav ul li a:first-child{
     padding: 5px;
 }
 
-.container {
+.container-hist{
     max-width: auto;
     margin: 3px ;
     padding: 20px;
@@ -56,12 +56,45 @@ nav ul li a:first-child{
     overflow: hidden;
 }
 
-.head-ingred{                   /*Colocar o titulo "INGREDIENTES" para a esquerda da tela*/
+.head-hist{
     border-bottom: solid 5px;
+    text-align: left;
+}
+
+.text-hist{
+    text-align: left;
+    max-width:750px ;
+
+}
+
+.container-ing{
+    max-width: auto;
+    margin: 3px ;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.head-ing{
+    border-bottom: solid 5px;
+    text-align: left;
+}
+
+.container-pt {
+    max-width: auto;
+    margin: 3px ;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.head-pt{                   /*Colocar o titulo "INGREDIENTES" para a esquerda da tela*/
+    border-bottom: solid 5px;
+    text-align: left;
     
 }
 
-.card {
+.card-pt {
     display: inline-block;
     background-color: #fff;
     border: 1px solid black;
@@ -72,7 +105,7 @@ nav ul li a:first-child{
     vertical-align: middle;
 }
 
-.card img {
+.card-pt img {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
@@ -80,12 +113,25 @@ nav ul li a:first-child{
     border-top-right-radius: 15px;
 }
 
-.card-content {
+.card-pt-content {
     padding: 20px;
 }
 
-.card-content h2 {
+.card-pt-content h2 {
     margin-top: 0;
+}
+
+.container-qns{
+    max-width: auto;
+    margin: 3px ;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.head-qns{
+    border-bottom: solid 5px;
+    text-align: left;
 }
 
 footer {
