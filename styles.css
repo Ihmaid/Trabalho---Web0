@@ -54,10 +54,14 @@ nav ul li a:first-child{
     padding: 20px;
     text-align: center;
     overflow: hidden;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 
 .head-hist{
-    border-bottom: solid 5px;
+    border-bottom: solid 5px;   
     text-align: left;
 }
 
@@ -65,6 +69,11 @@ nav ul li a:first-child{
     text-align: left;
     max-width:750px ;
 
+}
+
+.img-hist{
+      max-width: 100%;
+  max-height:100%;
 }
 
 .container-ing{
