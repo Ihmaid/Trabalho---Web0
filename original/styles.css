@@ -1,0 +1,148 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url("images/banner_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 200px;
+    border-bottom: solid 20px black;
+}
+
+.menu{
+    border: 3px solid #000;
+    position: unset;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    border-right: 3px solid #000;
+}
+
+.menu .hist-topic-menu{
+    padding: 11px;
+    border-left: 3px solid #000;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    font-size: 110%;
+}
+
+.title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.history{
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+
+
+}
+
+.history-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.history-card img {
+    display: grid;
+    /* center image */
+    margin: auto;
+    width: 100%;
+    max-height: 95%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 95%;
+}
+
+.history-card-text h1 {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.history-card-text p {
+    margin-top: 0;
+    font-size: 1.75vw;
+
+    text-align: center;
+    /* auto font size */
+}
