@@ -33,6 +33,7 @@ header {
     display: inline-block;
     padding: 10px;
     border-right: 3px solid #000;
+    color: #fff;
 }
 
 .menu .hist-topic-menu{
@@ -86,8 +87,45 @@ header {
     margin-top: 0;
 }
 
+.pagina-inicial1{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    clear: both;
+}
+
+.texto-conheca-negocio{
+    
+    margin-top: 37px;
+    margin-left: 10px;
+    padding: 12px;
+    max-width: 1010px;
+    border: solid 2px black;
+    border-radius:20px ;
+    font: 1.4em "Fira-Sans", sans-serif;
+    clear: both;
+}
+
+.pagina-inicial2{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.texto-regiao-norte{
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-left: 10px;
+    padding: 12px;
+    max-width: 1010px;
+    border: solid 2px black;
+    border-radius:20px ;
+    font: 1.4em "Fira-Sans", sans-serif;
+}
+
 footer {
-    background-color: #e74c3c;
+    background-color: #355E3B;
     color: #fff;
     text-align: center;
     padding: 10px 0;
