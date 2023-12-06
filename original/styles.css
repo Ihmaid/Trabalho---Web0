@@ -22,11 +22,27 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    height: auto;
+    height: auto; 
 }
 
 .menu{
     position: unset;
+    
+}
+.menu h1 a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 110%;
+    opacity: 1;
+    text-decoration-style: solid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    
+}
+.menu h1 a:hover{
+    font-size: 120%;
 }
 
 .menu ul {
@@ -45,14 +61,19 @@ header {
     padding: 11px;
 }
 
-.menu a {
+.menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: rgb(245, 250, 227);
     font-weight: bold;
+    font-size: x-large;
+    opacity: 1;
+    text-decoration-style: solid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
-.menu a:hover{
-    font-size: 110%;
+.menu ul li a:hover{
+    font-size: 210%;
 }
 
 .title-link {
@@ -62,6 +83,7 @@ header {
   background: linear-gradient(to right, #43a047, #f9a825), 	#8B4513;
   -webkit-background-clip: text;    
   -webkit-text-fill-color: transparent;
+  opacity: 1;
 }
 
 .container {
@@ -127,6 +149,7 @@ header {
     height: fit-content;
     clear: both;
     position: relative;
+    padding-bottom: 1.5vw;
 }
 
 
@@ -146,8 +169,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px ;
-    width: 100%;
-    position: static;
+    width: auto;
 }
 
 .history{
@@ -173,7 +195,6 @@ footer {
     
 .history-card img {
     display: grid;
-    /* center image */
     margin: auto;
     width: 100%;
     max-height: 95%;
@@ -200,5 +221,26 @@ footer {
     font-size: 1.75vw;
 
     text-align: center;
-    /* auto font size */
+}
+.ingredientes-card{
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    
+}
+.ingredientes-card img{
+    max-width: 95%;
+}
+.ingredientes-card a{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
